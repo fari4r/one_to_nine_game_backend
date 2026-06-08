@@ -9,7 +9,7 @@ app.use(cors());
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: ["http://localhost:5173", "https://your-app-name.vercel.app"],
+    origin: ["https://soft-scone-664714.netlify.app/"],
     methods: ["GET", "POST"],
   },
 });
